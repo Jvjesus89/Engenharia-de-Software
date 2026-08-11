@@ -1,0 +1,12 @@
+Lista de Exercícios – Revisão Inicial de Algoritmos em Python
+Objetivo: Revisar os principais conceitos de algoritmos utilizando Python.
+1. Leia dois números e exiba a soma, subtração, multiplicação e divisão.
+2. Leia o nome e a idade de uma pessoa e exiba uma mensagem com essas informações.
+3. Leia um número e informe se ele é positivo, negativo ou zero.
+4. Leia a nota de um aluno e informe se ele foi aprovado (nota ≥ 7) ou reprovado.
+5. Leia um número inteiro e mostre sua tabuada de 1 a 10.
+6. Leia um número N e calcule a soma dos números de 1 até N.
+7. Leia 10 números e informe a soma e a média.
+8. Leia vários números até que o usuário digite 0. Ao final, informe a soma dos valores digitados.
+9. Crie uma função que receba dois números e retorne o maior deles.
+10. Desafio: Faça um programa que leia 5 números e informe o maior e o menor valor.
