@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sistema-solar.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <header>
+        <h1>Sistema Solar</h1>
+        <p>Clique na imagem de um planeta para ver os dados</p>
+        <span class="hint">Órbitas em movimento</span>
+    </header>
+
+    <main class="stage">
+        <div class="solar-system">
+            <div class="sun" title="Sol"></div>
+            <div class="orbit orbit-asteroids"></div>
+
+            <div class="orbit orbit-mercury">
+                <a class="planet mercury" href="#mercurio" aria-label="Mercúrio">
+                    <span class="planet-label">Mercúrio</span>
+                </a>
+            </div>
+            <div class="orbit orbit-venus">
+                <a class="planet venus" href="#venus" aria-label="Vênus">
+                    <span class="planet-label">Vênus</span>
+                </a>
+            </div>
+            <div class="orbit orbit-earth">
+                <a class="planet earth" href="#terra" aria-label="Terra">
+                    <span class="planet-label">Terra</span>
+                </a>
+            </div>
+            <div class="orbit orbit-mars">
+                <a class="planet mars" href="#marte" aria-label="Marte">
+                    <span class="planet-label">Marte</span>
+                </a>
+            </div>
+            <div class="orbit orbit-jupiter">
+                <a class="planet jupiter" href="#jupiter" aria-label="Júpiter">
+                    <span class="planet-label">Júpiter</span>
+                </a>
+            </div>
+            <div class="orbit orbit-saturn">
+                <a class="planet saturn" href="#saturno" aria-label="Saturno">
+                    <span class="planet-label">Saturno</span>
+                </a>
+            </div>
+            <div class="orbit orbit-uranus">
+                <a class="planet uranus" href="#urano" aria-label="Urano">
+                    <span class="planet-label">Urano</span>
+                </a>
+            </div>
+            <div class="orbit orbit-neptune">
+                <a class="planet neptune" href="#netuno" aria-label="Netuno">
+                    <span class="planet-label">Netuno</span>
+                </a>
+            </div>
+            <div class="orbit orbit-pluto">
+                <a class="planet pluto" href="#plutao" aria-label="Plutão">
+                    <span class="planet-label">Plutão</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="mercurio">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Terrestres</span>
+                    <h3>Mercúrio</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.879</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>5427</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>3.7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>4222,6</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="venus">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Terrestres</span>
+                    <h3>Vênus</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>2802,0</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="terra">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Terrestres</span>
+                    <h3>Terra</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>24,0</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="marte">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Terrestres</span>
+                    <h3>Marte</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>24,7</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="jupiter">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Jovianos · Gigantes Gasosos</span>
+                    <h3>Júpiter</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>24,7</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="saturno">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Jovianos · Gigantes Gasosos</span>
+                    <h3>Saturno</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>10,7</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="urano">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Jovianos · Gigante de gelo</span>
+                    <h3>Urano</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>9,9</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="netuno">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planetas Jovianos · Gigante de gelo</span>
+                    <h3>Netuno</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>16.1</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="plutao">
+        <a href="#" class="modal-backdrop" aria-label="Fechar"></a>
+        <div class="modal">
+            <div class="modal-top">
+                <div>
+                    <span class="badge">Planeta</span>
+                    <h3>Plutão</h3>
+                </div>
+                <a href="#" class="close" aria-label="Fechar">&times;</a>
+            </div>
+            <div class="stats">
+                <div class="stat"><span>Massa (10<sup>24</sup>kg)</span><strong>0,330</strong></div>
+                <div class="stat"><span>Diâmetro (km)</span><strong>4.79</strong></div>
+                <div class="stat"><span>Densidade (km/m<sup>3</sup>)</span><strong>27</strong></div>
+                <div class="stat"><span>Gravidade (m/s<sup>2</sup>)</span><strong>7</strong></div>
+                <div class="stat"><span>Duração do dia (horas)</span><strong>16.1</strong></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
